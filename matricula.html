@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Alumno</title>
+    <link rel="stylesheet" href="matricula.css">
+</head>
+<body>
+    <h1>Formulario de Alumno</h1>
+    <form id="formulario" action="procesar.php" method="post">
+        <label for="nombre">Nombre del Alumno:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+
+        <label for="apellido">Apellido del Alumno:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="edad">Edad del Alumno:</label>
+        <input type="number" id="edad" name="edad"><br><br>
+
+        <label for="fecha_nacimiento">Fecha de Nacimiento del Alumno:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento"><br><br>
+
+        <label for="identidad">Identidad del Alumno:</label>
+        <input type="text" id="identidad" name="identidad"><br><br>
+
+        <label for="telefono">Numero de Telefono:</label>
+        <input type="telefono" id="telefono" name="telefono"><br><br>
+
+        <label for="residencia">Residencia:</label>
+        <input type="text" id="residencia" name="residencia"><br><br>
+
+        <label for="municipio">Municipio:</label>
+        <input type="text" id="municipio" name="municipio"><br><br>
+
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento" name="departamento"><br><br>
+
+        <label for="sexo">Ingrese su Sexo:</label>
+        <input type="sexo" id="sexo" name="sexo"><br><br>
+        <table>
+     <thead>
+       <tr>
+         <th>Padre</th>
+         <th>Madre</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>
+           <label for="padre_nombre">Nombre:</label>
+           <input type="text" id="padre_nombre" name="padre_nombre"><br>
+           <label for="padre_apellido">Apellido:</label>
+           <input type="text" id="padre_apellido" name="padre_apellido"><br>
+           <label for="padre_edad">Edad:</label>
+           <input type="number" id="padre_edad" name="padre_edad">
+           <label for="profesion_padre">Profesion:</label>
+           <input type="text" id="profesion_padre" name="profesion_padre">
+           <label for="identidad_padre">Identidad:</label>
+           <input type="text" id="identidad_padre" name="identidad_padre">
+           <label for="telefono_padre">Telefono Padre:</label>
+           <input type="number" id="telefono_padre" name="telefono_padre">
+         </td>
+         <td>
+           <label for="madre_nombre">Nombre:</label>
+           <input type="text" id="madre_nombre" name="madre_nombre"><br>
+           <label for="madre_apellido">Apellido:</label>
+           <input type="text" id="madre_apellido" name="madre_apellido"><br>
+           <label for="madre_edad">Edad:</label>
+           <input type="number" id="madre_edad" name="madre_edad">
+           <label for="profesion_madre">Profesion:</label>
+           <input type="text" id="profesion_madre" name="profesion_madre">
+           <label for="identidad_madre">Identidad:</label>
+           <input type="number" id="identidad_madre" name="identidad_madre">
+           <label for="telefono_madre">Telefono Madre:</label>
+           <input type="number" id="telefono_madre" name="telefono_madre">
+         </td>
+       </tr>
+     </tbody>
+   </table>
+   <form>
+    <h2>Sección del colegio</h2>
+    <label for="seccion">Seleccione la sección:</label>
+    <select id="seccion" name="seccion">
+      <option value=""></option>
+      <option value="Secundaria">Secundaria</option>
+      <option value="Bachillerato">Bachillerato</option>
+    </select>
+
+    <h2>Jornada del colegio</h2>
+    <label for="horario">Seleccione la jornada:</label>
+    <select id="horario" name="horario">
+      <option value=""></option>
+      <option value="Mañana">Mañana</option>
+      <option value="Tarde">Tarde</option>
+      <option value="Noche">Noche</option>
+    </select>
+
+    <h2>Carreras del colegio</h2>
+    <label for="bachiller">Seleccione la carrera:</label>
+    <select id="bachiller" name="bachiller">
+      <option value=""></option>
+      <option value="BTP INFORMATICA">BTP INFORMATICA</option>
+      <option value="BTP CIENCIAS Y HUMANIDADES">BTP CIENCIAS Y HUMANIDADES</option>
+      <option value="BTP CONTROL Y CALIDAD">BTP CONTROL Y CALIDAD</option>
+      <option value="BTP CONTADURIA Y FINANZAS">BTP CONTADURIA Y FINANZA</option>
+      <option value="BTP ADMINISTRACION DE EMPRESAS">BTP ADMINISTRACION DE EMPRESAS</option>
+    </select>
+
+        <input type="submit" value="Enviar">
+        <a href="">Reiniciar</a>
+        <a href="index.html">Inicio</a>
+
+    </form>
+
+
+</body>
+</html>
